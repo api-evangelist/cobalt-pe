@@ -64,59 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cobalt is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by techstars) and added to the network as a stub for full-pipeline profiling.
+Cobalt provides a continuous offensive security testing platform that combines AI‑powered automation with human‑led penetration testing to help organizations identify and remediate vulnerabilities across web applications, APIs, mobile apps, and cloud environments. The platform offers services such as autonomous pentests, API security testing, DAST, and a comprehensive dashboard for risk management. Cobalt Labs, Inc. serves enterprises across multiple industries, delivering scalable credit‑based pricing and integrations with CI/CD pipelines.
 
-**Areas:** Company
+**Areas:** Security · PenTesting · OffensiveSecurity · AI · Platform · Company
 
 ## Cobalt on APIs.io
 
 Everything profiled for Cobalt is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cobalt-pe/](https://apis.io/providers/cobalt-pe/)** — or go straight to one of the APIs or properties below.
 
+### APIs (1)
+
+- [Cobalt API](https://apis.io/apis/cobalt-pe/cobalt-api/) — Cobalt API provides REST access to Organizations, Assets, Pentests, Findings, and Events.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Cobalt Pe Authentication](https://apis.io/security/cobalt-pe/cobalt-pe-authentication/)
 - [Cobalt Pe Domain Security](https://apis.io/security/cobalt-pe/cobalt-pe-domain-security/)
+- [Cobalt Pe Trust Center](https://apis.io/security/cobalt-pe/cobalt-pe-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Cobalt Pe Plans Pricing](https://apis.io/plans/cobalt-pe/cobalt-pe-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Cobalt Pe Rate Limits](https://apis.io/rate-limits/cobalt-pe/cobalt-pe-rate-limits/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://cobalt.pe/)
+- [Website](https://www.cobalt.io/)
+- [Documentation](https://docs.cobalt.io/)
+- [Getting started](https://www.cobalt.io/get-started)
+- [API reference](https://developer.cobalt.io/v2/)
+- [Pricing](https://www.cobalt.io/platform/pricing)
+- [Sign up](https://www.cobalt.io/demo-center)
+- [Blog](https://www.cobalt.io/blog)
+- [Compliance](https://www.cobalt.io/solutions/compliance)
+- [Terms of service](https://www.cobalt.io/terms)
+- [Privacy policy](https://www.cobalt.io/terms#privacy)
+- [GitHub](https://github.com/Cobalt-Labs)
 
 ## API Evangelist rating
 
-**Kin Score 1.3** — minimal · rubric 0.24.0 · scored 2026-10-29
+**Kin Score 41.4** — developing · rubric 0.25.0 · scored 2026-10-29
 
 | Facet | Score |
 |---|---|
-| Discoverability | 26.8 |
+| Discoverability | 68.3 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
-| Operational transparency | 0.0 |
-| Developer ergonomics | 0.0 |
-| Access clarity | 0.0 |
+| Operational transparency | 40.0 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 88.9 |
 
-**Agent readiness 0.0** — human-only
+**Agent readiness 17.1** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | — |
-| Auth Clarity | — |
-| Idempotency | — |
-| Error Semantics | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | documented (partial credit) |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -124,8 +152,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
-**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cobalt-pe/](https://apis.io/providers/cobalt-pe/).
 
